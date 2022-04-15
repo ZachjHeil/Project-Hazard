@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BG" style="width: 100%; height: 100%; background-color: rgb(34, 76, 82); display: flex; background-image: resource(&apos;Sprites/Main_background&apos;);">
+        <ui:VisualElement name="Title" style="width: 100%; height: 20%;">
+            <ui:Label text="Project Hazard" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; font-size: 175px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Selections" style="width: 100%; height: 80%; align-items: center; justify-content: center;">
+            <ui:VisualElement name="Buttons" style="width: 40%; height: 55%; background-color: rgba(142, 219, 229, 0.39);">
+                <ui:VisualElement name="NewRunBG" style="width: 100%; height: 25%; flex-direction: column; align-items: center; justify-content: space-around;">
+                    <ui:Label text="New Run" display-tooltip-when-elided="true" name="NewRunButton" style="font-size: 50px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="OptionsBG" style="width: 100%; height: 25%; align-items: center; justify-content: space-around;">
+                    <ui:Label text="Options" display-tooltip-when-elided="true" name="OptionsButton" style="font-size: 50px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="CreditsBG" style="width: 100%; height: 25%; align-items: center; justify-content: space-around;">
+                    <ui:Label text="Credits" display-tooltip-when-elided="true" name="CreditsButton" style="font-size: 50px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ExitGameBG" style="width: 100%; height: 25%; align-items: center; justify-content: space-around;">
+                    <ui:Label text="Exit Game" display-tooltip-when-elided="true" name="ExitGameButton" style="font-size: 50px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
